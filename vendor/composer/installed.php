@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'framework',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'itrax/framework',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'dcblogdev/pdo-wrapper' => array(
+            'pretty_version' => 'v2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../dcblogdev/pdo-wrapper',
+            'aliases' => array(),
+            'reference' => '6c048b1838858d3d825b75f11b98d13b6cf43eee',
+            'dev_requirement' => false,
+        ),
+        'itrax/framework' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'framework',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'wixel/gump' => array(
+            'pretty_version' => 'v1.12.1',
+            'version' => '1.12.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wixel/gump',
+            'aliases' => array(),
+            'reference' => 'e8416a3942f8e868c930e3577e12ba23ef02e8fe',
+            'dev_requirement' => false,
+        ),
+    ),
+);

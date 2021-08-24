@@ -1,0 +1,20 @@
+{
+"name":"itrax/framework",
+"description": "itrax framework",
+"license": "MIT",
+"type": "framework",
+"require": {
+    "php":"^8",
+        "dcblogdev/pdo-wrapper": "^2.0",
+        "wixel/gump": "^1.12"
+},
+
+
+"autoload": {
+    "psr-4":{
+        "itrax\\": "app"
+    }
+}
+
+
+}
